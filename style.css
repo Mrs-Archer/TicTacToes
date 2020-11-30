@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 40px;
+  background-color: rgb(247, 63, 185);
+}
+
+section {
+  display: flex;
+  min-height: calc(100vh - 80px);
+  background-image: url("Images/Background.jpg");
+}
+
+.title {
+  display: flex;
+  color: rgb(65, 57, 57);
+  font-size: 40px;
+  font-family: "Nerko One", cursive;
+  font-weight: 700;
+}
+.title > li {
+  padding: 50px 130px;
+  list-style-type: none;
+}
+footer {
+  height: 40px;
+  background-color: rgb(247, 63, 185);
+}
